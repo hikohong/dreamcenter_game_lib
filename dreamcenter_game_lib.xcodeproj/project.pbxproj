@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36E525FA1403E287002A1D5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E525F91403E287002A1D5B /* UIKit.framework */; };
+		36E525FC1403E287002A1D5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E525FB1403E287002A1D5B /* Foundation.framework */; };
+		36E525FE1403E287002A1D5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E525FD1403E287002A1D5B /* CoreGraphics.framework */; };
+		36E526001403E287002A1D5B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E525FF1403E287002A1D5B /* QuartzCore.framework */; };
+		36E526021403E287002A1D5B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E526011403E287002A1D5B /* OpenGLES.framework */; };
+		36E526081403E287002A1D5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36E526061403E287002A1D5B /* InfoPlist.strings */; };
+		36E5260A1403E287002A1D5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E526091403E287002A1D5B /* main.m */; };
+		36E5260E1403E287002A1D5B /* dreamcenter_game_libAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E5260D1403E287002A1D5B /* dreamcenter_game_libAppDelegate.m */; };
+		36E526111403E287002A1D5B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36E5260F1403E287002A1D5B /* MainWindow.xib */; };
+		36E526131403E287002A1D5B /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 36E526121403E287002A1D5B /* Shader.fsh */; };
+		36E526151403E287002A1D5B /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 36E526141403E287002A1D5B /* Shader.vsh */; };
+		36E526181403E287002A1D5B /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E526171403E287002A1D5B /* EAGLView.m */; };
+		36E5261B1403E287002A1D5B /* dreamcenter_game_libViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E5261A1403E287002A1D5B /* dreamcenter_game_libViewController.m */; };
+		36E5261E1403E287002A1D5B /* dreamcenter_game_libViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36E5261C1403E287002A1D5B /* dreamcenter_game_libViewController.xib */; };
+		36E526261403E287002A1D5B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E526251403E287002A1D5B /* SenTestingKit.framework */; };
+		36E526271403E287002A1D5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E525F91403E287002A1D5B /* UIKit.framework */; };
+		36E526281403E287002A1D5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E525FB1403E287002A1D5B /* Foundation.framework */; };
+		36E526291403E287002A1D5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E525FD1403E287002A1D5B /* CoreGraphics.framework */; };
+		36E526311403E287002A1D5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36E5262F1403E287002A1D5B /* InfoPlist.strings */; };
+		36E526331403E287002A1D5B /* dreamcenter_game_libTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 36E526321403E287002A1D5B /* dreamcenter_game_libTests.h */; };
+		36E526351403E287002A1D5B /* dreamcenter_game_libTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E526341403E287002A1D5B /* dreamcenter_game_libTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36E5262A1403E287002A1D5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36E525EC1403E286002A1D5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36E525F41403E286002A1D5B;
+			remoteInfo = dreamcenter_game_lib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36E525F51403E287002A1D5B /* dreamcenter_game_lib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dreamcenter_game_lib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E525F91403E287002A1D5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		36E525FB1403E287002A1D5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36E525FD1403E287002A1D5B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		36E525FF1403E287002A1D5B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		36E526011403E287002A1D5B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		36E526051403E287002A1D5B /* dreamcenter_game_lib-Info.plist */ = {isa = PBXFileReference; path = "dreamcenter_game_lib-Info.plist"; sourceTree = "<group>"; };
+		36E526071403E287002A1D5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36E526091403E287002A1D5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36E5260B1403E287002A1D5B /* dreamcenter_game_lib-Prefix.pch */ = {isa = PBXFileReference; path = "dreamcenter_game_lib-Prefix.pch"; sourceTree = "<group>"; };
+		36E5260C1403E287002A1D5B /* dreamcenter_game_libAppDelegate.h */ = {isa = PBXFileReference; path = dreamcenter_game_libAppDelegate.h; sourceTree = "<group>"; };
+		36E5260D1403E287002A1D5B /* dreamcenter_game_libAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dreamcenter_game_libAppDelegate.m; sourceTree = "<group>"; };
+		36E526101403E287002A1D5B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		36E526121403E287002A1D5B /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		36E526141403E287002A1D5B /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		36E526161403E287002A1D5B /* EAGLView.h */ = {isa = PBXFileReference; path = EAGLView.h; sourceTree = "<group>"; };
+		36E526171403E287002A1D5B /* EAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		36E526191403E287002A1D5B /* dreamcenter_game_libViewController.h */ = {isa = PBXFileReference; path = dreamcenter_game_libViewController.h; sourceTree = "<group>"; };
+		36E5261A1403E287002A1D5B /* dreamcenter_game_libViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dreamcenter_game_libViewController.m; sourceTree = "<group>"; };
+		36E5261D1403E287002A1D5B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/dreamcenter_game_libViewController.xib; sourceTree = "<group>"; };
+		36E526241403E287002A1D5B /* dreamcenter_game_libTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dreamcenter_game_libTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E526251403E287002A1D5B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		36E5262E1403E287002A1D5B /* dreamcenter_game_libTests-Info.plist */ = {isa = PBXFileReference; path = "dreamcenter_game_libTests-Info.plist"; sourceTree = "<group>"; };
+		36E526301403E287002A1D5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36E526321403E287002A1D5B /* dreamcenter_game_libTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dreamcenter_game_libTests.h; sourceTree = "<group>"; };
+		36E526341403E287002A1D5B /* dreamcenter_game_libTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dreamcenter_game_libTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36E525F21403E286002A1D5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E525FA1403E287002A1D5B /* UIKit.framework in Frameworks */,
+				36E525FC1403E287002A1D5B /* Foundation.framework in Frameworks */,
+				36E525FE1403E287002A1D5B /* CoreGraphics.framework in Frameworks */,
+				36E526001403E287002A1D5B /* QuartzCore.framework in Frameworks */,
+				36E526021403E287002A1D5B /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36E526201403E287002A1D5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E526261403E287002A1D5B /* SenTestingKit.framework in Frameworks */,
+				36E526271403E287002A1D5B /* UIKit.framework in Frameworks */,
+				36E526281403E287002A1D5B /* Foundation.framework in Frameworks */,
+				36E526291403E287002A1D5B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36E525EA1403E286002A1D5B = {
+			isa = PBXGroup;
+			children = (
+				36E526031403E287002A1D5B /* dreamcenter_game_lib */,
+				36E5262C1403E287002A1D5B /* dreamcenter_game_libTests */,
+				36E525F81403E287002A1D5B /* Frameworks */,
+				36E525F61403E287002A1D5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36E525F61403E287002A1D5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36E525F51403E287002A1D5B /* dreamcenter_game_lib.app */,
+				36E526241403E287002A1D5B /* dreamcenter_game_libTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36E525F81403E287002A1D5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36E525F91403E287002A1D5B /* UIKit.framework */,
+				36E525FB1403E287002A1D5B /* Foundation.framework */,
+				36E525FD1403E287002A1D5B /* CoreGraphics.framework */,
+				36E525FF1403E287002A1D5B /* QuartzCore.framework */,
+				36E526011403E287002A1D5B /* OpenGLES.framework */,
+				36E526251403E287002A1D5B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36E526031403E287002A1D5B /* dreamcenter_game_lib */ = {
+			isa = PBXGroup;
+			children = (
+				36E5260C1403E287002A1D5B /* dreamcenter_game_libAppDelegate.h */,
+				36E5260D1403E287002A1D5B /* dreamcenter_game_libAppDelegate.m */,
+				36E5260F1403E287002A1D5B /* MainWindow.xib */,
+				36E526121403E287002A1D5B /* Shader.fsh */,
+				36E526141403E287002A1D5B /* Shader.vsh */,
+				36E526161403E287002A1D5B /* EAGLView.h */,
+				36E526171403E287002A1D5B /* EAGLView.m */,
+				36E526191403E287002A1D5B /* dreamcenter_game_libViewController.h */,
+				36E5261A1403E287002A1D5B /* dreamcenter_game_libViewController.m */,
+				36E5261C1403E287002A1D5B /* dreamcenter_game_libViewController.xib */,
+				36E526041403E287002A1D5B /* Supporting Files */,
+			);
+			path = dreamcenter_game_lib;
+			sourceTree = "<group>";
+		};
+		36E526041403E287002A1D5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36E526051403E287002A1D5B /* dreamcenter_game_lib-Info.plist */,
+				36E526061403E287002A1D5B /* InfoPlist.strings */,
+				36E526091403E287002A1D5B /* main.m */,
+				36E5260B1403E287002A1D5B /* dreamcenter_game_lib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36E5262C1403E287002A1D5B /* dreamcenter_game_libTests */ = {
+			isa = PBXGroup;
+			children = (
+				36E526321403E287002A1D5B /* dreamcenter_game_libTests.h */,
+				36E526341403E287002A1D5B /* dreamcenter_game_libTests.m */,
+				36E5262D1403E287002A1D5B /* Supporting Files */,
+			);
+			path = dreamcenter_game_libTests;
+			sourceTree = "<group>";
+		};
+		36E5262D1403E287002A1D5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36E5262E1403E287002A1D5B /* dreamcenter_game_libTests-Info.plist */,
+				36E5262F1403E287002A1D5B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36E525F41403E286002A1D5B /* dreamcenter_game_lib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36E526381403E287002A1D5B /* Build configuration list for PBXNativeTarget "dreamcenter_game_lib" */;
+			buildPhases = (
+				36E525F11403E286002A1D5B /* Sources */,
+				36E525F21403E286002A1D5B /* Frameworks */,
+				36E525F31403E286002A1D5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dreamcenter_game_lib;
+			productName = dreamcenter_game_lib;
+			productReference = 36E525F51403E287002A1D5B /* dreamcenter_game_lib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36E526231403E287002A1D5B /* dreamcenter_game_libTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36E5263B1403E287002A1D5B /* Build configuration list for PBXNativeTarget "dreamcenter_game_libTests" */;
+			buildPhases = (
+				36E5261F1403E287002A1D5B /* Sources */,
+				36E526201403E287002A1D5B /* Frameworks */,
+				36E526211403E287002A1D5B /* Resources */,
+				36E526221403E287002A1D5B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36E5262B1403E287002A1D5B /* PBXTargetDependency */,
+			);
+			name = dreamcenter_game_libTests;
+			productName = dreamcenter_game_libTests;
+			productReference = 36E526241403E287002A1D5B /* dreamcenter_game_libTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36E525EC1403E286002A1D5B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 36E525EF1403E286002A1D5B /* Build configuration list for PBXProject "dreamcenter_game_lib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36E525EA1403E286002A1D5B;
+			productRefGroup = 36E525F61403E287002A1D5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36E525F41403E286002A1D5B /* dreamcenter_game_lib */,
+				36E526231403E287002A1D5B /* dreamcenter_game_libTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36E525F31403E286002A1D5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E526081403E287002A1D5B /* InfoPlist.strings in Resources */,
+				36E526111403E287002A1D5B /* MainWindow.xib in Resources */,
+				36E526131403E287002A1D5B /* Shader.fsh in Resources */,
+				36E526151403E287002A1D5B /* Shader.vsh in Resources */,
+				36E5261E1403E287002A1D5B /* dreamcenter_game_libViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36E526211403E287002A1D5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E526311403E287002A1D5B /* InfoPlist.strings in Resources */,
+				36E526331403E287002A1D5B /* dreamcenter_game_libTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36E526221403E287002A1D5B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36E525F11403E286002A1D5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E5260A1403E287002A1D5B /* main.m in Sources */,
+				36E5260E1403E287002A1D5B /* dreamcenter_game_libAppDelegate.m in Sources */,
+				36E526181403E287002A1D5B /* EAGLView.m in Sources */,
+				36E5261B1403E287002A1D5B /* dreamcenter_game_libViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36E5261F1403E287002A1D5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E526351403E287002A1D5B /* dreamcenter_game_libTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36E5262B1403E287002A1D5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36E525F41403E286002A1D5B /* dreamcenter_game_lib */;
+			targetProxy = 36E5262A1403E287002A1D5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36E526061403E287002A1D5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36E526071403E287002A1D5B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36E5260F1403E287002A1D5B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36E526101403E287002A1D5B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		36E5261C1403E287002A1D5B /* dreamcenter_game_libViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36E5261D1403E287002A1D5B /* en */,
+			);
+			name = dreamcenter_game_libViewController.xib;
+			sourceTree = "<group>";
+		};
+		36E5262F1403E287002A1D5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36E526301403E287002A1D5B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36E526361403E287002A1D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36E526371403E287002A1D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36E526391403E287002A1D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dreamcenter_game_lib/dreamcenter_game_lib-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "dreamcenter_game_lib/dreamcenter_game_lib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		36E5263A1403E287002A1D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dreamcenter_game_lib/dreamcenter_game_lib-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "dreamcenter_game_lib/dreamcenter_game_lib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		36E5263C1403E287002A1D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/dreamcenter_game_lib.app/dreamcenter_game_lib";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dreamcenter_game_lib/dreamcenter_game_lib-Prefix.pch";
+				INFOPLIST_FILE = "dreamcenter_game_libTests/dreamcenter_game_libTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		36E5263D1403E287002A1D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/dreamcenter_game_lib.app/dreamcenter_game_lib";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dreamcenter_game_lib/dreamcenter_game_lib-Prefix.pch";
+				INFOPLIST_FILE = "dreamcenter_game_libTests/dreamcenter_game_libTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36E525EF1403E286002A1D5B /* Build configuration list for PBXProject "dreamcenter_game_lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36E526361403E287002A1D5B /* Debug */,
+				36E526371403E287002A1D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36E526381403E287002A1D5B /* Build configuration list for PBXNativeTarget "dreamcenter_game_lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36E526391403E287002A1D5B /* Debug */,
+				36E5263A1403E287002A1D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36E5263B1403E287002A1D5B /* Build configuration list for PBXNativeTarget "dreamcenter_game_libTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36E5263C1403E287002A1D5B /* Debug */,
+				36E5263D1403E287002A1D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36E525EC1403E286002A1D5B /* Project object */;
+}
